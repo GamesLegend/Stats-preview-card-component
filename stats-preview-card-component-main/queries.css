@@ -1,0 +1,120 @@
+@media (max-width: 90em) {
+  .card-component {
+    max-width: 80rem;
+  }
+
+  .text-box {
+    padding: 4rem 6rem;
+  }
+}
+
+@media (max-width: 76em) {
+  .card-component {
+    max-width: 70rem;
+  }
+
+  .text-box {
+    padding: 3rem 5rem;
+  }
+
+  .component-stats {
+    width: 100%;
+  }
+
+  .card-img {
+    background-image: linear-gradient(
+        rgba(170, 92, 219, 0.65),
+        rgba(170, 92, 219, 0.65)
+      ),
+      url("images/image-header-mobile.jpg");
+    background-position: center;
+  }
+}
+
+@media (max-width: 66.25em) {
+  body {
+    height: 200vh;
+  }
+
+  .text-box {
+    padding: 4rem 5rem;
+  }
+
+  .card-component {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 50rem;
+  }
+
+  .card-header {
+    font-size: 3.5rem;
+  }
+
+  .card-description {
+    font-size: 1.8rem;
+  }
+
+  .component-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .stats-header {
+    font-size: 2.5rem;
+  }
+
+  .stats-p {
+    font-size: 1.5rem;
+  }
+
+  .card-img {
+    grid-row: 1;
+    height: 37rem;
+    background-position: top;
+  }
+}
+
+@media (max-width: 38em) {
+  .card-component {
+    max-width: 25rem;
+  }
+
+  .card-section {
+    padding: 0 1rem;
+  }
+
+  .text-box {
+    padding: 3rem 2rem;
+  }
+
+  .card-header {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .card-description {
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  .stats-header {
+    font-size: 1.8rem;
+  }
+
+  .stats-p {
+    font-size: 1.1rem;
+  }
+
+  .card-img {
+    height: 15rem;
+  }
+}
